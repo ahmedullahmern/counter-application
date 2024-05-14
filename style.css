@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./istockphoto-1224300127-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50px;
+}
+
+.heading{
+    font-family: "Lugrasimo", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 40px;
+    color: aqua;
+}
+
+.rumber_genrate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 40px;
+    color: black;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    font-size: 40px;
+    color: black;
+    border: 1px solid white;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Increment,.Reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    font-size: 30px;
+    width: 250px;
+    height: 60px;
+    border-radius: 15px;
+    margin-left: 8px;
+    padding: 30px;
+    border:  1px solid white;
+}
+
+.Increment{
+    background-color: green;
+    color: white;
+}
+.Reset{
+    background-color: red;
+    color: white;
+}
